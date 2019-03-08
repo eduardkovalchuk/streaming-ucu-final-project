@@ -1,7 +1,7 @@
 package ua.ucu.edu.actor
 
 import akka.actor.{Actor, ActorRef}
-import ua.ucu.edu.model.ReadMeasurement
+import ua.ucu.edu.model.{ ReadMeasurement, RespondMeasurement }
 
 import scala.collection.mutable
 import scala.concurrent.duration._
@@ -26,7 +26,9 @@ class SolarPanelActor(
   }
 
   override def receive: Receive = {
-    case _ => ???
+    case  RespondMeasurement => {
+
+    }
     // todo handle measurement respond and push it to kafka
   }
 }

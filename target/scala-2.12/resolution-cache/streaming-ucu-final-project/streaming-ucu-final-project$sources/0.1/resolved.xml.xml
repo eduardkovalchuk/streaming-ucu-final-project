@@ -4,7 +4,7 @@
 		module="streaming-ucu-final-project$sources"
 		revision="0.1"
 		status="integration"
-		publication="20190307182834"
+		publication="20190308195324"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
