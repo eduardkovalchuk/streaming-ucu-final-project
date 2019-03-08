@@ -7,7 +7,7 @@
 		revision="0.1"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190307182834"/>
+		date="20190308195324"/>
 	<dependencies>
 		<module organisation="javax.ws.rs" name="javax.ws.rs-api">
 			<revision name="2.1.1" status="release" pubdate="20180824190549" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/eclipse-ee4j/jaxrs-api" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="21">

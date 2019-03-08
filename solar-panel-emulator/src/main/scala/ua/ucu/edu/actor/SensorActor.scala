@@ -6,13 +6,14 @@ import ua.ucu.edu.model.{ReadMeasurement, RespondMeasurement}
 
 import scala.language.postfixOps
 
-class SensorActor[T](
+class SensorActor(
   val deviceId: String,
-  sensor: SensorApi
+  api: SensorApi
 ) extends Actor {
 
   override def receive: Receive = {
-    case _ => ???
-    // todo respond with measurements to parent panel actor
+    case ReadMeasurement => {
+      sender() ! RespondMeasurement(deviceId, api.sensor.sensorType, api.readCurrentValue)
+    }
   }
 }

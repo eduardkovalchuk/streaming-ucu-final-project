@@ -4,7 +4,7 @@
 		module="solar-panel-emulator$sources"
 		revision="0.1"
 		status="integration"
-		publication="20190307182835"
+		publication="20190308195325"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

@@ -7,7 +7,7 @@
 		revision="0.1"
 		conf="test"
 		confs="compile, runtime, test, provided, optional"
-		date="20190307182830"/>
+		date="20190308195320"/>
 	<dependencies>
 		<module organisation="com.lightbend.sbt" name="sbt-proguard">
 			<revision name="0.3.0" status="release" pubdate="20170906221148" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="106">
