@@ -1,7 +1,7 @@
 package ua.ucu.edu
 
 import scala.io.Source
-import scala.util.parsing.json.{JSONArray, JSONObject}
+import scala.util.parsing.json.{JSON}
 import akka.actor._
 //import ua.ucu.edu.kafka.DummyDataProducer
 //import ua.ucu.edu.actor.PlantManagerActor
@@ -25,8 +25,7 @@ object Main extends App {
 
   println(locationsFile)
 
+  val json = JSON.parseFull(locationsFile)
 
-
-
-
+  println(json)
 }
