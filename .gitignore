@@ -1,5 +1,5 @@
 .idea
-target
+target/
 _readme.md
 /MSKKeyPair.pem
 /credentials.csv
