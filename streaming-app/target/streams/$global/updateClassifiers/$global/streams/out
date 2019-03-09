@@ -3792,38 +3792,38 @@
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] net.sf.jopt-simple#jopt-simple;5.0.4!jopt-simple.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.kafka#kafka_2.12;2.1.0!kafka_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.github.luben#zstd-jni;1.3.5-4!zstd-jni.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.9.7!jackson-core.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.8!scala-library.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.zookeeper#zookeeper;3.4.13!zookeeper.jar(src)
+[debug] 	[NOT REQUIRED] com.github.luben#zstd-jni;1.3.5-4!zstd-jni.jar(src)
 [debug] 	[NOT REQUIRED] org.xerial.snappy#snappy-java;1.1.7.2!snappy-java.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.zookeeper#zookeeper;3.4.13!zookeeper.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.yetus#audience-annotations;0.5.0!audience-annotations.jar(src)
 [debug] 	[NOT REQUIRED] com.yammer.metrics#metrics-core;2.2.0!metrics-core.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.kafka#kafka-streams-scala_2.12;2.0.1!kafka-streams-scala_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.kafka#kafka-streams;2.0.1!kafka-streams.jar(src)
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
 [debug] 	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.9.0!jackson-annotations.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.kafka#kafka-streams;2.0.1!kafka-streams.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.kafka#kafka-clients;2.1.0!kafka-clients.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.yetus#audience-annotations;0.5.0!audience-annotations.jar(src)
-[debug] 	[NOT REQUIRED] org.lz4#lz4-java;1.5.0!lz4-java.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.kafka#kafka-streams-scala_2.12;2.0.1!kafka-streams-scala_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.kafka#connect-api;2.0.1!connect-api.jar(src)
-[debug] 	[NOT REQUIRED] com.101tec#zkclient;0.10!zkclient.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.kafka#connect-json;2.0.1!connect-json.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.scala-logging#scala-logging_2.12;3.9.0!scala-logging_2.12.jar(src)
-[debug] 	[NOT REQUIRED] javax.ws.rs#javax.ws.rs-api;2.1.1!javax.ws.rs-api.jar(src)
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-log4j12;1.7.25!slf4j-log4j12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.8!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.kafka#kafka-clients;2.1.0!kafka-clients.jar(src)
+[debug] 	[NOT REQUIRED] com.101tec#zkclient;0.10!zkclient.jar(src)
+[debug] 	[NOT REQUIRED] org.lz4#lz4-java;1.5.0!lz4-java.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.scala-logging#scala-logging_2.12;3.9.0!scala-logging_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.kafka#connect-json;2.0.1!connect-json.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.9.7!jackson-databind.jar(src)
 [debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.5!scalactic_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.rocksdb#rocksdbjni;5.7.3!rocksdbjni.jar(src)
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-log4j12;1.7.25!slf4j-log4j12.jar(src)
+[debug] 	[NOT REQUIRED] javax.ws.rs#javax.ws.rs-api;2.1.1!javax.ws.rs-api.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.8!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] junit#junit;4.12!junit.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
-[debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.kafka#kafka-streams-test-utils;2.0.1!kafka-streams-test-utils.jar(src)
-[debug] :: resolution report :: resolve 290ms :: artifacts dl 6ms
+[debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar(src)
+[debug] :: resolution report :: resolve 331ms :: artifacts dl 6ms
 [debug] 	report for streaming-app#streaming-app$sources;0.1 compile produced in /home/eduard/study-ucu/streaming-ucu-final-project/streaming-app/target/scala-2.12/resolution-cache/reports/streaming-app-streaming-app$sources-compile.xml
 [debug] 	report for streaming-app#streaming-app$sources;0.1 runtime produced in /home/eduard/study-ucu/streaming-ucu-final-project/streaming-app/target/scala-2.12/resolution-cache/reports/streaming-app-streaming-app$sources-runtime.xml
 [debug] 	report for streaming-app#streaming-app$sources;0.1 test produced in /home/eduard/study-ucu/streaming-ucu-final-project/streaming-app/target/scala-2.12/resolution-cache/reports/streaming-app-streaming-app$sources-test.xml
@@ -3835,4 +3835,4 @@
 [debug] 	report for streaming-app#streaming-app$sources;0.1 plugin produced in /home/eduard/study-ucu/streaming-ucu-final-project/streaming-app/target/scala-2.12/resolution-cache/reports/streaming-app-streaming-app$sources-plugin.xml
 [debug] 	report for streaming-app#streaming-app$sources;0.1 pom produced in /home/eduard/study-ucu/streaming-ucu-final-project/streaming-app/target/scala-2.12/resolution-cache/reports/streaming-app-streaming-app$sources-pom.xml
 [debug] 	report for streaming-app#streaming-app$sources;0.1 scala-tool produced in /home/eduard/study-ucu/streaming-ucu-final-project/streaming-app/target/scala-2.12/resolution-cache/reports/streaming-app-streaming-app$sources-scala-tool.xml
-[debug] 	resolve done (290ms resolve - 6ms download)
+[debug] 	resolve done (331ms resolve - 6ms download)

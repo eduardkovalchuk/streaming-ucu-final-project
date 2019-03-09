@@ -142,6 +142,17 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [compile->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [compile->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scalastuff#scalabeans;0.2 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scalastuff#scalabeans;0.2
+[debug] 	found org.scalastuff#scalabeans;0.2 in sbt-chain
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1
@@ -169,6 +180,17 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [compile->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->compile]
+[debug] sbt-chain: Checking cache for: dependency: com.google.guava#guava;r09 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: com.google.guava#guava;r09
+[debug] 	found com.google.guava#guava;r09 in sbt-chain
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: io.spray#spray-json_2.12;1.3.5 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: io.spray#spray-json_2.12;1.3.5
@@ -235,6 +257,21 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [compile->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [compile->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->default]
+[debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson.module#jackson-module-scala;2.0.2 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.module#jackson-module-scala;2.0.2
+[debug] 	found com.fasterxml.jackson.module#jackson-module-scala;2.0.2 in sbt-chain
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->default(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: io.netty#netty;3.10.6.Final {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: io.netty#netty;3.10.6.Final
@@ -418,7 +455,7 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang#scala-reflect;2.12.8 [compile->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang#scala-reflect;2.12.8 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->compile]
-[debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-databind;2.9.7 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-databind;2.9.7 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)], test=[compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)]}
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-databind;2.9.7
 [debug] 	found com.fasterxml.jackson.core#jackson-databind;2.9.7 in sbt-chain
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->runtime(*)]
@@ -426,8 +463,23 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->master(compile)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->runtime]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->default(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->compile]
+[debug] sbt-chain: Checking cache for: dependency: com.thoughtworks.paranamer#paranamer;2.3 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: com.thoughtworks.paranamer#paranamer;2.3
+[debug] 	found com.thoughtworks.paranamer#paranamer;2.3 in sbt-chain
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [compile->default]
 [debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-log4j12;1.7.25 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-log4j12;1.7.25
@@ -604,6 +656,14 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [compile->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [compile->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->compile]
@@ -624,6 +684,14 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [compile->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [compile->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [compile->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [compile->compile]
@@ -672,6 +740,18 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [compile->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [compile->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->default]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->default(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [compile->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [compile->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [compile->compile]
@@ -810,8 +890,20 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->master(compile)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->runtime]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->default(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [compile->default]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [compile->runtime]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [compile->compile]
@@ -968,6 +1060,14 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [runtime->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [runtime->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [runtime->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [runtime->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [runtime->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [runtime->compile]
@@ -988,6 +1088,14 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [runtime->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [runtime->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [runtime->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [runtime->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [runtime->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [runtime->compile]
@@ -1036,6 +1144,18 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [runtime->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [runtime->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [runtime->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->default]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->default(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [runtime->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [runtime->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [runtime->compile]
@@ -1174,8 +1294,20 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->master(compile)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->runtime]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->default(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [runtime->default]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [runtime->runtime]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [runtime->compile]
@@ -1337,6 +1469,14 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [compile->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [compile->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->compile]
@@ -1357,6 +1497,14 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [compile->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [compile->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [compile->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [compile->compile]
@@ -1405,6 +1553,18 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [compile->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [compile->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->default]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->default(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [compile->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [compile->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [compile->compile]
@@ -1543,8 +1703,20 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->master(compile)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->runtime]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->default(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [compile->default]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [compile->runtime]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [compile->compile]
@@ -1701,6 +1873,14 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [runtime->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [runtime->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [runtime->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [runtime->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [runtime->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [runtime->compile]
@@ -1721,6 +1901,14 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [runtime->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [runtime->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [runtime->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [runtime->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [runtime->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [runtime->compile]
@@ -1769,6 +1957,18 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [runtime->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [runtime->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [runtime->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->default]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->default(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [runtime->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [runtime->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [runtime->compile]
@@ -1907,8 +2107,20 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->master(compile)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->runtime]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->default(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [runtime->default]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [runtime->runtime]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [runtime->compile]
@@ -2108,6 +2320,14 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [test->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [test->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [test->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [test->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [test->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [test->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [test->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [test->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [test->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [test->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [test->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [test->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [test->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [test->compile]
@@ -2128,6 +2348,14 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [test->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [test->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [test->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [test->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [test->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [test->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [test->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [test->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [test->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [test->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [test->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.6 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.12;1.0.6
@@ -2187,6 +2415,18 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [test->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [test->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [test->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test->default]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test->default(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [test->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [test->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [test->compile]
@@ -2351,8 +2591,20 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [test->master(compile)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [test->runtime]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [test->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [test->default(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [test->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [test->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [test->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [test->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [test->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [test->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [test->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [test->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [test->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [test->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [test->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [test->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [test->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [test->default]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [test->runtime]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [test->compile]
@@ -2516,6 +2768,14 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [compile->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [compile->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->compile]
@@ -2536,6 +2796,14 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [compile->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [compile->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [compile->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [compile->compile]
@@ -2584,6 +2852,18 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [compile->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [compile->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->default]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->default(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [compile->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [compile->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [compile->compile]
@@ -2722,8 +3002,20 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->master(compile)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->runtime]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->default(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [compile->default]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [compile->runtime]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [compile->compile]
@@ -2882,6 +3174,14 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [compile-internal->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [compile-internal->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [compile-internal->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile-internal->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile-internal->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile-internal->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile-internal->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile-internal->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile-internal->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile-internal->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile-internal->compile]
@@ -2902,6 +3202,14 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [compile-internal->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [compile-internal->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [compile-internal->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile-internal->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile-internal->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile-internal->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile-internal->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile-internal->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [compile-internal->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [compile-internal->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [compile-internal->compile]
@@ -2950,6 +3258,18 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [compile-internal->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [compile-internal->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [compile-internal->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile-internal->default]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile-internal->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile-internal->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile-internal->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile-internal->default(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile-internal->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile-internal->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile-internal->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [compile-internal->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [compile-internal->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [compile-internal->compile]
@@ -3088,8 +3408,20 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile-internal->master(compile)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile-internal->runtime]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile-internal->default(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile-internal->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile-internal->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile-internal->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile-internal->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile-internal->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile-internal->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile-internal->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile-internal->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile-internal->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [compile-internal->default]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [compile-internal->runtime]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [compile-internal->compile]
@@ -3250,6 +3582,14 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [compile->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [compile->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->compile]
@@ -3270,6 +3610,14 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [compile->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [compile->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [compile->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [compile->compile]
@@ -3318,6 +3666,18 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [compile->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [compile->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->default]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->default(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [compile->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [compile->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [compile->compile]
@@ -3456,8 +3816,20 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->master(compile)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->runtime]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->default(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [compile->default]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [compile->runtime]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [compile->compile]
@@ -3614,6 +3986,14 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [runtime->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [runtime->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [runtime->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [runtime->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [runtime->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [runtime->compile]
@@ -3634,6 +4014,14 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [runtime->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [runtime->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [runtime->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [runtime->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [runtime->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [runtime->compile]
@@ -3682,6 +4070,18 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [runtime->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [runtime->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [runtime->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->default]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->default(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [runtime->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [runtime->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [runtime->compile]
@@ -3820,8 +4220,20 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->master(compile)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->runtime]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->default(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [runtime->default]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [runtime->runtime]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [runtime->compile]
@@ -3979,6 +4391,14 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [runtime-internal->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [runtime-internal->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [runtime-internal->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime-internal->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime-internal->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime-internal->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime-internal->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [runtime-internal->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [runtime-internal->compile]
@@ -3999,6 +4419,14 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [runtime-internal->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [runtime-internal->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [runtime-internal->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime-internal->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime-internal->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime-internal->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime-internal->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [runtime-internal->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [runtime-internal->compile]
@@ -4047,6 +4475,18 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [runtime-internal->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [runtime-internal->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [runtime-internal->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime-internal->default]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime-internal->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime-internal->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime-internal->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime-internal->default(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime-internal->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime-internal->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime-internal->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [runtime-internal->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [runtime-internal->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [runtime-internal->compile]
@@ -4185,8 +4625,20 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime-internal->master(compile)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime-internal->runtime]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime-internal->default(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime-internal->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime-internal->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime-internal->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime-internal->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime-internal->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime-internal->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime-internal->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime-internal->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [runtime-internal->default]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [runtime-internal->runtime]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [runtime-internal->compile]
@@ -4348,6 +4800,14 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [compile->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [compile->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [compile->compile]
@@ -4368,6 +4828,14 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [compile->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [compile->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [compile->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [compile->compile]
@@ -4416,6 +4884,18 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [compile->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [compile->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->default]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->default(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [compile->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [compile->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [compile->compile]
@@ -4554,8 +5034,20 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->master(compile)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->runtime]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->default(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [compile->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [compile->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [compile->default]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [compile->runtime]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [compile->compile]
@@ -4712,6 +5204,14 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [runtime->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [runtime->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [runtime->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [runtime->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [runtime->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [runtime->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [runtime->compile]
@@ -4732,6 +5232,14 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [runtime->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [runtime->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [runtime->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [runtime->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [runtime->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [runtime->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.spray#spray-json_2.12;1.3.5 [runtime->compile]
@@ -4780,6 +5288,18 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [runtime->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [runtime->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [runtime->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->default]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->default(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [runtime->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [runtime->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [runtime->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [runtime->compile]
@@ -4918,8 +5438,20 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->master(compile)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->runtime]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->default(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [runtime->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [runtime->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [runtime->default]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [runtime->runtime]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [runtime->compile]
@@ -5109,6 +5641,14 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [test->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [test->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [test->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [test->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [test->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [test->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [test->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [test->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [test->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [test->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [test->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [test->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [test->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [test->compile]
@@ -5129,6 +5669,14 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [test->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [test->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [test->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [test->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [test->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [test->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [test->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [test->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [test->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [test->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [test->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
@@ -5185,6 +5733,18 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [test->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [test->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [test->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test->default]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test->default(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [test->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [test->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [test->compile]
@@ -5343,8 +5903,20 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [test->master(compile)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [test->runtime]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [test->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [test->default(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [test->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [test->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [test->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [test->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [test->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [test->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [test->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [test->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [test->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [test->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [test->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [test->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [test->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [test->default]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [test->runtime]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [test->compile]
@@ -5536,6 +6108,14 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [test-internal->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [test-internal->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.apache.zookeeper#zookeeper;3.4.13 [test-internal->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [test-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [test-internal->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [test-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [test-internal->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [test-internal->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [test-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [test-internal->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scalastuff#scalabeans;0.2 [test-internal->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [test-internal->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [test-internal->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [test-internal->compile]
@@ -5556,6 +6136,14 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [test-internal->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [test-internal->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.typesafe.akka#akka-http-spray-json_2.12;10.1.7 [test-internal->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [test-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [test-internal->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [test-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [test-internal->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [test-internal->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [test-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [test-internal->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.google.guava#guava;r09 [test-internal->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->compile]
@@ -5612,6 +6200,18 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [test-internal->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [test-internal->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.agrona#agrona;0.9.31 [test-internal->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test-internal->default]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test-internal->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test-internal->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test-internal->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test-internal->default(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test-internal->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test-internal->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.module#jackson-module-scala;2.0.2 [test-internal->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [test-internal->compile]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [test-internal->runtime(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->io.netty#netty;3.10.6.Final [test-internal->compile]
@@ -5770,8 +6370,20 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [test-internal->master(compile)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [test-internal->runtime]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [test-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [test-internal->default(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [test-internal->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [test-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [test-internal->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [test-internal->compile(*)]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.9.7 [test-internal->master]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [test-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [test-internal->runtime(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [test-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [test-internal->master(compile)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [test-internal->runtime]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [test-internal->compile]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [test-internal->compile(*)]
+[debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->com.thoughtworks.paranamer#paranamer;2.3 [test-internal->master]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [test-internal->default]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [test-internal->runtime]
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->org.slf4j#slf4j-log4j12;1.7.25 [test-internal->compile]
@@ -5883,144 +6495,76 @@
 [debug] == resolving dependencies solar-panel-emulator#solar-panel-emulator$sources;0.1->jline#jline;2.14.6 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.apache.kafka#kafka_2.12;2.1.0!kafka_2.12.jar(src)
 [debug] 	[NOT REQUIRED] net.sf.jopt-simple#jopt-simple;5.0.4!jopt-simple.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.9.7!jackson-core.jar(src)
-[debug] 		tried /home/eduard/.ivy2/local/com.typesafe.akka/akka-protobuf_2.12/2.5.21/srcs/akka-protobuf_2.12-sources.jar
 [debug] 	[NOT REQUIRED] com.github.luben#zstd-jni;1.3.5-4!zstd-jni.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-protobuf_2.12;2.5.21!akka-protobuf_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.9.7!jackson-core.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.kafka#kafka_2.12;2.1.0!kafka_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.12;2.5.21!akka-slf4j_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.8!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.xerial.snappy#snappy-java;1.1.7.2!snappy-java.jar(src)
-[debug] 		tried /home/eduard/.ivy2/local/com.typesafe.akka/akka-http_2.12/10.1.7/srcs/akka-http_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.21/akka-protobuf_2.12-2.5.21-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.1.7/akka-http_2.12-10.1.7-sources.jar
 [debug] 	[NOT REQUIRED] org.apache.zookeeper#zookeeper;3.4.13!zookeeper.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http_2.12;10.1.7!akka-http_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1!scala-parser-combinators_2.12.jar(src)
-[debug] 		tried /home/eduard/.ivy2/local/com.typesafe.akka/akka-slf4j_2.12/2.5.21/srcs/akka-slf4j_2.12-sources.jar
-[debug] 		tried /home/eduard/.ivy2/local/com.typesafe.akka/akka-http-spray-json_2.12/10.1.7/srcs/akka-http-spray-json_2.12-sources.jar
-[debug] 		tried /home/eduard/.ivy2/local/io.spray/spray-json_2.12/1.3.5/srcs/spray-json_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.5.21/akka-slf4j_2.12-2.5.21-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json_2.12/10.1.7/akka-http-spray-json_2.12-10.1.7-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.5/spray-json_2.12-1.3.5-sources.jar
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-spray-json_2.12;10.1.7!akka-http-spray-json_2.12.jar(src)
+[debug] 		tried /home/eduard/.ivy2/local/org.scalastuff/scalabeans/0.2/srcs/scalabeans-sources.jar
+[debug] 	[NOT REQUIRED] io.spray#spray-json_2.12;1.3.5!spray-json_2.12.jar(src)
+[debug] 		tried https://repo1.maven.org/maven2/org/scalastuff/scalabeans/0.2/scalabeans-0.2-sources.jar
 [debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.yetus#audience-annotations;0.5.0!audience-annotations.jar(src)
-[debug] 	[NOT REQUIRED] com.yammer.metrics#metrics-core;2.2.0!metrics-core.jar(src)
+[debug] 		tried /home/eduard/.ivy2/local/com.google.guava/guava/r09/srcs/guava-sources.jar
 [debug] 	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar(src)
-[debug] 		tried /home/eduard/.ivy2/local/org.agrona/agrona/0.9.31/srcs/agrona-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/agrona/agrona/0.9.31/agrona-0.9.31-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.5.21/akka-slf4j_2.12-2.5.21-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.5.21/akka-slf4j_2.12-2.5.21-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json_2.12/10.1.7/akka-http-spray-json_2.12-10.1.7-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json_2.12/10.1.7/akka-http-spray-json_2.12-10.1.7-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.1.7/akka-http_2.12-10.1.7-sources.jar ...
-[info] downloading https://repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.5/spray-json_2.12-1.3.5-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.1.7/akka-http_2.12-10.1.7-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.5/spray-json_2.12-1.3.5-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.21/akka-protobuf_2.12-2.5.21-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.21/akka-protobuf_2.12-2.5.21-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.5.21/akka-slf4j_2.12-2.5.21-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.5/spray-json_2.12-1.3.5-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json_2.12/10.1.7/akka-http-spray-json_2.12-10.1.7-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.1.7/akka-http_2.12-10.1.7-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/org/agrona/agrona/0.9.31/agrona-0.9.31-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/agrona/agrona/0.9.31/agrona-0.9.31-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.5.21/akka-slf4j_2.12-2.5.21-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-slf4j_2.12;2.5.21!akka-slf4j_2.12.jar(src) (206ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.21/akka-protobuf_2.12-2.5.21-sources.jar.sha1
+[debug] 	[NOT REQUIRED] org.agrona#agrona;0.9.31!agrona.jar(src)
+[debug] 		tried https://repo1.maven.org/maven2/com/google/guava/guava/r09/guava-r09-sources.jar
+[debug] 		tried /home/eduard/.ivy2/local/com.fasterxml.jackson.module/jackson-module-scala/2.0.2/srcs/jackson-module-scala-sources.jar
 [debug] 	[NOT REQUIRED] io.netty#netty;3.10.6.Final!netty.jar(src)
-[debug] 		tried /home/eduard/.ivy2/local/com.typesafe.akka/akka-http-core_2.12/10.1.7/srcs/akka-http-core_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.7/akka-http-core_2.12-10.1.7-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.5/spray-json_2.12-1.3.5-sources.jar
-[info] 	[SUCCESSFUL ] io.spray#spray-json_2.12;1.3.5!spray-json_2.12.jar(src) (211ms)
-[debug] 		tried /home/eduard/.ivy2/local/com.typesafe.akka/akka-cluster_2.12/2.5.21/srcs/akka-cluster_2.12-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json_2.12/10.1.7/akka-http-spray-json_2.12-10.1.7-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.12/2.5.21/akka-cluster_2.12-2.5.21-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-http-spray-json_2.12;10.1.7!akka-http-spray-json_2.12.jar(src) (212ms)
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.9.0!jackson-annotations.jar(src)
+[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala/2.0.2/jackson-module-scala-2.0.2-sources.jar
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-core_2.12;10.1.7!akka-http-core_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.yammer.metrics#metrics-core;2.2.0!metrics-core.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-cluster_2.12;2.5.21!akka-cluster_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.101tec#zkclient;0.10!zkclient.jar(src)
-[debug] 		tried /home/eduard/.ivy2/local/com.typesafe.akka/akka-remote_2.12/2.5.21/srcs/akka-remote_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.12/2.5.21/akka-remote_2.12-2.5.21-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.1.7/akka-http_2.12-10.1.7-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-http_2.12;10.1.7!akka-http_2.12.jar(src) (247ms)
-[debug] 		tried /home/eduard/.ivy2/local/io.aeron/aeron-client/1.15.1/srcs/aeron-client-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/io/aeron/aeron-client/1.15.1/aeron-client-1.15.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.12/2.5.21/akka-cluster_2.12-2.5.21-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.12/2.5.21/akka-cluster_2.12-2.5.21-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.7/akka-http-core_2.12-10.1.7-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.7/akka-http-core_2.12-10.1.7-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.12/2.5.21/akka-remote_2.12-2.5.21-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.12/2.5.21/akka-remote_2.12-2.5.21-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.21/akka-protobuf_2.12-2.5.21-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-protobuf_2.12;2.5.21!akka-protobuf_2.12.jar(src) (289ms)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.9.0!jackson-annotations.jar(src)
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
+[debug] 	[NOT REQUIRED] io.aeron#aeron-client;1.15.1!aeron-client.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.kafka#kafka-clients;2.1.0!kafka-clients.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.scala-logging#scala-logging_2.12;3.9.0!scala-logging_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.3.7!ssl-config-core_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.lz4#lz4-java;1.5.0!lz4-java.jar(src)
-[debug] 		tried /home/eduard/.ivy2/local/com.typesafe.akka/akka-stream_2.12/2.5.21/srcs/akka-stream_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.21/akka-stream_2.12-2.5.21-sources.jar
-[info] downloading https://repo1.maven.org/maven2/io/aeron/aeron-client/1.15.1/aeron-client-1.15.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/aeron/aeron-client/1.15.1/aeron-client-1.15.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.12/2.5.21/akka-cluster_2.12-2.5.21-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.21/akka-stream_2.12-2.5.21-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.21/akka-stream_2.12-2.5.21-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/aeron/aeron-client/1.15.1/aeron-client-1.15.1-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.12/2.5.21/akka-remote_2.12-2.5.21-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/agrona/agrona/0.9.31/agrona-0.9.31-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.12/2.5.21/akka-cluster_2.12-2.5.21-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-cluster_2.12;2.5.21!akka-cluster_2.12.jar(src) (223ms)
-[debug] 	[NOT REQUIRED] com.typesafe#config;1.3.3!config.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-remote_2.12;2.5.21!akka-remote_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.12;2.5.21!akka-stream_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.8!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe#config;1.3.3!config.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.9.7!jackson-databind.jar(src)
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-log4j12;1.7.25!slf4j-log4j12.jar(src)
-[debug] 		tried /home/eduard/.ivy2/local/com.typesafe.akka/akka-parsing_2.12/10.1.7/srcs/akka-parsing_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.7/akka-parsing_2.12-10.1.7-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.7/akka-http-core_2.12-10.1.7-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.7/akka-parsing_2.12-10.1.7-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.7/akka-parsing_2.12-10.1.7-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/aeron/aeron-client/1.15.1/aeron-client-1.15.1-sources.jar
-[info] 	[SUCCESSFUL ] io.aeron#aeron-client;1.15.1!aeron-client.jar(src) (239ms)
-[debug] 		tried /home/eduard/.ivy2/local/com.typesafe.akka/akka-actor_2.12/2.5.21/srcs/akka-actor_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.21/akka-actor_2.12-2.5.21-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.12/2.5.21/akka-remote_2.12-2.5.21-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/agrona/agrona/0.9.31/agrona-0.9.31-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-remote_2.12;2.5.21!akka-remote_2.12.jar(src) (302ms)
-[info] 	[SUCCESSFUL ] org.agrona#agrona;0.9.31!agrona.jar(src) (514ms)
-[debug] 		tried /home/eduard/.ivy2/local/io.aeron/aeron-driver/1.15.1/srcs/aeron-driver-sources.jar
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.jar(src)
-[debug] 		tried https://repo1.maven.org/maven2/io/aeron/aeron-driver/1.15.1/aeron-driver-1.15.1-sources.jar
+[debug] 	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.3!paranamer.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-parsing_2.12;10.1.7!akka-parsing_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.12;2.5.21!akka-actor_2.12.jar(src)
+[debug] 	[NOT REQUIRED] io.aeron#aeron-driver;1.15.1!aeron-driver.jar(src)
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.jar(src)
-[debug] 		tried /home/eduard/.ivy2/local/com.typesafe.akka/akka-testkit_2.12/2.5.21/srcs/akka-testkit_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.21/akka-testkit_2.12-2.5.21-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.7/akka-http-core_2.12-10.1.7-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-http-core_2.12;10.1.7!akka-http-core_2.12.jar(src) (329ms)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.12;2.5.21!akka-testkit_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.5!scalactic_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
 [debug] 	[NOT REQUIRED] junit#junit;4.12!junit.jar(src)
 [debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.8!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.21/akka-actor_2.12-2.5.21-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.21/akka-actor_2.12-2.5.21-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.21/akka-testkit_2.12-2.5.21-sources.jar ...
-[info] downloading https://repo1.maven.org/maven2/io/aeron/aeron-driver/1.15.1/aeron-driver-1.15.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.21/akka-testkit_2.12-2.5.21-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/aeron/aeron-driver/1.15.1/aeron-driver-1.15.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.7/akka-parsing_2.12-10.1.7-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.21/akka-stream_2.12-2.5.21-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.21/akka-testkit_2.12-2.5.21-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.7/akka-parsing_2.12-10.1.7-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-parsing_2.12;10.1.7!akka-parsing_2.12.jar(src) (217ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.21/akka-stream_2.12-2.5.21-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-stream_2.12;2.5.21!akka-stream_2.12.jar(src) (377ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/aeron/aeron-driver/1.15.1/aeron-driver-1.15.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.21/akka-testkit_2.12-2.5.21-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-testkit_2.12;2.5.21!akka-testkit_2.12.jar(src) (212ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/aeron/aeron-driver/1.15.1/aeron-driver-1.15.1-sources.jar
-[info] 	[SUCCESSFUL ] io.aeron#aeron-driver;1.15.1!aeron-driver.jar(src) (258ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.21/akka-actor_2.12-2.5.21-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.21/akka-actor_2.12-2.5.21-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.12;2.5.21!akka-actor_2.12.jar(src) (380ms)
-[debug] :: resolution report :: resolve 281ms :: artifacts dl 881ms
+[info] downloading https://repo1.maven.org/maven2/com/google/guava/guava/r09/guava-r09-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava/r09/guava-r09-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala/2.0.2/jackson-module-scala-2.0.2-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala/2.0.2/jackson-module-scala-2.0.2-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalastuff/scalabeans/0.2/scalabeans-0.2-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalastuff/scalabeans/0.2/scalabeans-0.2-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala/2.0.2/jackson-module-scala-2.0.2-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava/r09/guava-r09-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalastuff/scalabeans/0.2/scalabeans-0.2-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala/2.0.2/jackson-module-scala-2.0.2-sources.jar
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.module#jackson-module-scala;2.0.2!jackson-module-scala.jar(src) (330ms)
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/guava/guava/r09/guava-r09-sources.jar
+[info] 	[SUCCESSFUL ] com.google.guava#guava;r09!guava.jar(src) (385ms)
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalastuff/scalabeans/0.2/scalabeans-0.2-sources.jar
+[info] 	[SUCCESSFUL ] org.scalastuff#scalabeans;0.2!scalabeans.jar(src) (399ms)
+[debug] :: resolution report :: resolve 382ms :: artifacts dl 421ms
 [debug] 	report for solar-panel-emulator#solar-panel-emulator$sources;0.1 compile produced in /home/eduard/study-ucu/streaming-ucu-final-project/solar-panel-emulator/target/scala-2.12/resolution-cache/reports/solar-panel-emulator-solar-panel-emulator$sources-compile.xml
 [debug] 	report for solar-panel-emulator#solar-panel-emulator$sources;0.1 runtime produced in /home/eduard/study-ucu/streaming-ucu-final-project/solar-panel-emulator/target/scala-2.12/resolution-cache/reports/solar-panel-emulator-solar-panel-emulator$sources-runtime.xml
 [debug] 	report for solar-panel-emulator#solar-panel-emulator$sources;0.1 test produced in /home/eduard/study-ucu/streaming-ucu-final-project/solar-panel-emulator/target/scala-2.12/resolution-cache/reports/solar-panel-emulator-solar-panel-emulator$sources-test.xml
@@ -6032,4 +6576,4 @@
 [debug] 	report for solar-panel-emulator#solar-panel-emulator$sources;0.1 plugin produced in /home/eduard/study-ucu/streaming-ucu-final-project/solar-panel-emulator/target/scala-2.12/resolution-cache/reports/solar-panel-emulator-solar-panel-emulator$sources-plugin.xml
 [debug] 	report for solar-panel-emulator#solar-panel-emulator$sources;0.1 pom produced in /home/eduard/study-ucu/streaming-ucu-final-project/solar-panel-emulator/target/scala-2.12/resolution-cache/reports/solar-panel-emulator-solar-panel-emulator$sources-pom.xml
 [debug] 	report for solar-panel-emulator#solar-panel-emulator$sources;0.1 scala-tool produced in /home/eduard/study-ucu/streaming-ucu-final-project/solar-panel-emulator/target/scala-2.12/resolution-cache/reports/solar-panel-emulator-solar-panel-emulator$sources-scala-tool.xml
-[debug] 	resolve done (281ms resolve - 881ms download)
+[debug] 	resolve done (382ms resolve - 421ms download)

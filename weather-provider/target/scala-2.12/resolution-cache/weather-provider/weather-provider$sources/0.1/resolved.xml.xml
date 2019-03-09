@@ -4,7 +4,7 @@
 		module="weather-provider$sources"
 		revision="0.1"
 		status="integration"
-		publication="20190309181011"
+		publication="20190309193041"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
