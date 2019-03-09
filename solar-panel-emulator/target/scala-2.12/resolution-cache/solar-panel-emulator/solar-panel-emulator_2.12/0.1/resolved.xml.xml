@@ -4,7 +4,7 @@
 		module="solar-panel-emulator_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20190309193037"
+		publication="20190309211809"
 	>
 		<description>
 		solar-panel-emulator
@@ -50,7 +50,6 @@
 		<dependency org="com.typesafe.akka" name="akka-http_2.12" rev="10.1.7" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-stream_2.12" rev="2.5.21" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-http-spray-json_2.12" rev="10.1.7" conf="compile->default(compile)"/>
-		<dependency org="com.fasterxml.jackson.core" name="jackson-databind" rev="2.2.2" conf="compile->default(compile)"/>
-		<dependency org="com.fasterxml.jackson.module" name="jackson-module-scala" rev="2.0.2" conf="compile->default(compile)"/>
+		<dependency org="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" rev="2.9.8" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

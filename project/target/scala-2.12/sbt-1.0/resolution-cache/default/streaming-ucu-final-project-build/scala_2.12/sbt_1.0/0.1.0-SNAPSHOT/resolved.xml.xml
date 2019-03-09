@@ -4,7 +4,7 @@
 		module="streaming-ucu-final-project-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20190306204831"
+		publication="20190309211848"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

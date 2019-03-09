@@ -7,7 +7,7 @@
 		revision="0.1"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190309181008"/>
+		date="20190309211810"/>
 	<dependencies>
 		<module organisation="com.typesafe.akka" name="akka-http-spray-json_2.12">
 			<revision name="10.1.7" status="release" pubdate="20190104121115" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io" extra-info.apiURL="http://doc.akka.io/api/akka-http/10.1.7/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="37">

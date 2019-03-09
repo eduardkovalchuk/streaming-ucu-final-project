@@ -7,7 +7,7 @@
 		revision="0.1"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190309193041"/>
+		date="20190309212223"/>
 	<dependencies>
 		<module organisation="com.typesafe.akka" name="akka-cluster_2.12">
 			<revision name="2.5.21" status="release" pubdate="20190213141910" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.21" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="20">

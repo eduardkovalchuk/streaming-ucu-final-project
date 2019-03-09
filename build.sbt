@@ -79,8 +79,7 @@ lazy val solar_panel_emulator = (project in file("solar-panel-emulator"))
     libraryDependencies ++= commonDependencies ++ akkaDependencies ++ Seq(
       // your additional dependencies go here
     ),
-    libraryDependencies += "com.fasterxml.jackson.core" % "jackson-databind" % "2.2.2",
-    libraryDependencies += "com.fasterxml.jackson.module" % "jackson-module-scala" % "2.0.2" ,
+    libraryDependencies += "com.fasterxml.jackson.module" %% "jackson-module-scala" % "2.9.8",
     dockerSettings()
   )
 
