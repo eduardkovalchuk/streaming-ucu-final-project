@@ -4,7 +4,7 @@
 		module="weather-provider_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20190306205042"
+		publication="20190309181008"
 	>
 		<description>
 		weather-provider
@@ -43,9 +43,12 @@
 		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.5" conf="test->default(compile)"/>
 		<dependency org="org.slf4j" name="slf4j-log4j12" rev="1.7.25" conf="compile->default(compile)"/>
 		<dependency org="junit" name="junit" rev="4.12" conf="test->default(compile)"/>
-		<dependency org="com.typesafe.akka" name="akka-actor_2.12" rev="2.5.20" conf="compile->default(compile)"/>
-		<dependency org="com.typesafe.akka" name="akka-slf4j_2.12" rev="2.5.20" conf="compile->default(compile)"/>
-		<dependency org="com.typesafe.akka" name="akka-cluster_2.12" rev="2.5.20" conf="compile->default(compile)"/>
-		<dependency org="com.typesafe.akka" name="akka-testkit_2.12" rev="2.5.20" conf="test->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-actor_2.12" rev="2.5.21" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-slf4j_2.12" rev="2.5.21" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-cluster_2.12" rev="2.5.21" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-testkit_2.12" rev="2.5.21" conf="test->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-http_2.12" rev="10.1.7" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-stream_2.12" rev="2.5.21" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-http-spray-json_2.12" rev="10.1.7" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

@@ -1,7 +1,7 @@
 package ua.ucu.edu.actor
 
 import akka.actor.{Actor, ActorLogging, ActorRef, Props}
-import ua.ucu.edu.model.Location
+import ua.ucu.edu.model.{ Location, CriticalState }
 
 import scala.collection.mutable
 import java.util.UUID.randomUUID
@@ -33,6 +33,8 @@ class PlantManagerActor(
   }
 
   override def receive: Receive = {
-    case _ => ???
+    case CriticalState => {
+      context.stop(self)
+    }
   }
 }

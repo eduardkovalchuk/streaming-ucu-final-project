@@ -4,7 +4,7 @@
 		module="streaming-app$sources"
 		revision="0.1"
 		status="integration"
-		publication="20190308195324"
+		publication="20190309181010"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

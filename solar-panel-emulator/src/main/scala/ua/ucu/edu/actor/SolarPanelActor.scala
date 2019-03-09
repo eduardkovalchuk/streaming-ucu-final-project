@@ -42,7 +42,7 @@ class SolarPanelActor(
       println("Panel actor received record: ", deviceId, sensorType, value)
     }
     case CriticalState => {
-
+      context.parent ! CriticalState
     }
   }
 
