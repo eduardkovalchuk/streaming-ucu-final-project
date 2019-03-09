@@ -1,9 +1,10 @@
 package ua.ucu.edu.actor
 
-import akka.actor.{Actor, ActorLogging, ActorRef}
+import akka.actor.{Actor, ActorLogging, ActorRef, Props}
 import ua.ucu.edu.model.Location
 
 import scala.collection.mutable
+import java.util.UUID.randomUUID
 
 /**
   * This actor manages solar plant, holds a list of panels and knows about its location
@@ -14,12 +15,21 @@ class PlantManagerActor(
   location: Location
 ) extends Actor with ActorLogging {
 
-  // todo - populate a list of panels on this plant
-  lazy val panelToActorRef: mutable.Map[String, ActorRef] = ???
+  lazy val panelToActorRef: mutable.Map[String, ActorRef] = {
+
+    val panels = mutable.Map[String, ActorRef]()
+
+    for (i <- 1 to 50) {
+      val panelId = s"$plantName-$randomUUID"
+      panels(panelId) = context.actorOf(Props(new SolarPanelActor(panelId)), panelId)
+    }
+    panels
+  }
 
   override def preStart(): Unit = {
     log.info(s"========== Solar Plant Manager starting ===========")
     super.preStart()
+    val panels = panelToActorRef
   }
 
   override def receive: Receive = {

@@ -1,7 +1,9 @@
 package ua.ucu.edu.actor
 
-import akka.actor.{Actor, ActorRef}
-import ua.ucu.edu.model.{ ReadMeasurement, RespondMeasurement }
+import akka.actor.{Actor, ActorRef, Props}
+import ua.ucu.edu.model.{ ReadMeasurement, RespondMeasurement, SensorRecord, CriticalState }
+import ua.ucu.edu.actor.{ SensorActor }
+import ua.ucu.edu.device.{ WindSensor, IrradianceSensor, TemperatureSensor, SensorGenerator}
 
 import scala.collection.mutable
 import scala.concurrent.duration._
@@ -14,8 +16,13 @@ class SolarPanelActor(
   val panelId: String
 ) extends Actor {
 
-  // todo - initialize device actors
-  val deviceToActorRef: mutable.Map[String, ActorRef] = ???
+  val deviceToActorRef: mutable.Map[String, ActorRef] = {
+    mutable.Map[String, ActorRef](
+      "windSensor" -> context.actorOf(Props(new SensorActor(s"$panelId-windSensor", SensorGenerator(WindSensor()))), "windSensor"),
+      "irradSensor" -> context.actorOf(Props(new SensorActor(s"$panelId-irradSensor", SensorGenerator(IrradianceSensor()))), "irradSensor"),
+      "tempSensor" -> context.actorOf(Props(new SensorActor(s"$panelId-tempSensor", SensorGenerator(TemperatureSensor()))), "tempSensor")
+    )
+  }
 
   override def preStart(): Unit = {
     super.preStart()
@@ -26,9 +33,17 @@ class SolarPanelActor(
   }
 
   override def receive: Receive = {
-    case  RespondMeasurement => {
+    case ReadMeasurement => {
+      for ((deviceId, actor) <- deviceToActorRef) {
+        actor ! ReadMeasurement
+      }
+    }
+    case  RespondMeasurement(deviceId, sensorType, value) => {
+      println("Panel actor received record: ", deviceId, sensorType, value)
+    }
+    case CriticalState => {
 
     }
-    // todo handle measurement respond and push it to kafka
   }
+
 }

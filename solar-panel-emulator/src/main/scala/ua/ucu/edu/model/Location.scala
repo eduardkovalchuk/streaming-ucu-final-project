@@ -1,3 +1,3 @@
 package ua.ucu.edu.model
 
-case class Location(longitude: Long, latitude: Long)
+case class Location(latitude: Long, longitude: Long)
