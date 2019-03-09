@@ -11,7 +11,8 @@ ThisBuild / scalacOptions ++= Seq(
   "-encoding", "UTF-8",
   "-Xlint")
 
-val akkaVersion = "2.5.20"
+val akkaVersion = "2.5.21"
+val akkaHttpVersion = "10.1.7"
 
 val commonDependencies = Seq(
   "org.apache.kafka" %% "kafka" % "2.1.0" withSources()
@@ -34,7 +35,10 @@ val akkaDependencies = Seq (
   "com.typesafe.akka" %% "akka-actor" % akkaVersion,
   "com.typesafe.akka" %% "akka-slf4j" % akkaVersion,
   "com.typesafe.akka" %% "akka-cluster" % akkaVersion,
-  "com.typesafe.akka" %% "akka-testkit" % akkaVersion % Test
+  "com.typesafe.akka" %% "akka-testkit" % akkaVersion % Test,
+  "com.typesafe.akka" %% "akka-http"   % akkaHttpVersion,
+  "com.typesafe.akka" %% "akka-stream" % akkaVersion,
+  "com.typesafe.akka" %% "akka-http-spray-json" % akkaHttpVersion
 )
 
 def dockerSettings(debugPort: Option[Int] = None) = Seq(
