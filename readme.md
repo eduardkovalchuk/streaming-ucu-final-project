@@ -1,3 +1,37 @@
+# Homework summary
+
+@Yurii: I would ask you to shortly describe the following:
+- main design and implementation decisions that have been made (nevertheless you used recommended approach and evolved it or did it from scratch) and complexities faced
+- scalability of your solution - limitations, performance, how it may scale (and which attributes might be determining in this regard), how much load it can handle (approximation), where it can be improved, any metrics (if were measured)
+- how to test your solution - what to build and how to deploy for a simple test, so we will know how to assess and grade
+
+## Main design
+### Solar panels
+
+Solar panels data is implemented using Akka Actors. On start 20 actors-plants are created. For each actor-plans 50 actors-panels are created as children. Each children sends data every second to the designated topic.
+
+Complexities: It was hard to understand and manage actors hierarchies, parse JSONs.
+
+### Streaming application
+
+The streaming module uses Kafka Streams for data processing and merging. Solar panels data is readed into `KStream`, temperature data into `KTable`. Then data is joined and sent to the designated topic.
+
+Complexities: It would be cool to also have local environment to develop in. Kafka documentation is very 'implicit', you must guess different things. 
+
+### Weather provider
+
+The weather provider gets data from OpenWeatherMap via Akka HTTP API, transforms it to the desired format and sends to the designated topic.
+
+Complexities: It was hard to parse JSONs. Kafka crashes from time to time.
+
+## Scalability
+
+limitations, performance, how it may scale (and which attributes might be determining in this regard), how much load it can handle (approximation), where it can be improved, any metrics (if were measured)
+
+## How to test
+
+The project can be built and run using the regular commands: `sbt docker` and `docker-compose up`.
+
 # Streaming course final project assignment
 
 Base project for a final assignment, contains:
