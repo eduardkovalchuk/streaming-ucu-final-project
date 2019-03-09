@@ -1,3 +1,40 @@
+# Homework summary
+
+Students: Eduard Kovalchuk, Anton Bilchuk, Teodor Romanus
+
+## Main design
+### Solar panels
+
+Solar panels data is implemented using Akka Actors. On start 20 actors-plants are created. For each actor-plans 50 actors-panels are created as children. Each children sends data every second to the designated topic.
+
+Complexities: It was hard to understand and manage actors hierarchies, parse JSONs.
+
+### Streaming application
+
+The streaming module uses Kafka Streams for data processing and merging. Solar panels data is readed into `KStream`, temperature data into `KTable`. Then data is joined and sent to the designated topic.
+
+Complexities: It would be cool to also have local environment to develop in. Kafka documentation is very 'implicit', you must guess different things. Kafka crashes from time to time.
+
+### Weather provider
+
+The weather provider gets data from OpenWeatherMap via Akka HTTP API, transforms it to the desired format and sends to the designated topic.
+
+Complexities: It was hard to parse JSONs. Kafka crashes from time to time.
+
+## Scalability & Improvements
+
+We cannot scale the weather provider, and we don't need to do it actually. If we run more instances of the solar panels module, we can use it for testing, but generally we should get at least new plants. So, in general, we wouldn't want to scale it a lot.
+
+Another thing is with the streaming application. If we see that it doesn't handle all incoming requests, we can run another instance of it. And we can do that multiple times.
+
+The project can be improved with code refactoring, introducing serialization of data (we send everything in strings now).
+
+## How to test
+
+The project can be built and run using the regular commands: `sbt docker` and `docker-compose up`. 
+
+Topics: `weather_data`, `solar-panel`, `result_data`.
+
 # Streaming course final project assignment
 
 Base project for a final assignment, contains:
