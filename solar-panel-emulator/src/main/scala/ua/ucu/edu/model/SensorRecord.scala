@@ -1,8 +1,12 @@
 package ua.ucu.edu.model
 
-import ua.ucu.edu.model.Location
-
 /**
   * To be used as a message in device topic
   */
-case class SensorRecord(panelId: String, location: Location, sensorType: String, measurement: Double)
+case class SensorRecord(panelId: String, location: Location, sensorType: String, measurement: Double) {
+  def stingify() = {
+    val lat = location.latitude
+    val long = location.longitude
+    s"$panelId;$sensorType;$lat;$long"
+  }
+}

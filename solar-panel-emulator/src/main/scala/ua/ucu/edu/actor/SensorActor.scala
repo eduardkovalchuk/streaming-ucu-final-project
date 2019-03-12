@@ -1,7 +1,7 @@
 package ua.ucu.edu.actor
 
 import akka.actor.Actor
-import ua.ucu.edu.device.{SensorApi, SensorGenerator}
+import ua.ucu.edu.device.{SensorApi}
 import ua.ucu.edu.model.{ReadMeasurement, RespondMeasurement, CriticalState}
 
 import scala.language.postfixOps

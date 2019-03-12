@@ -1,10 +1,12 @@
 package ua.ucu.edu.actor
 
 import akka.actor.{Actor, ActorLogging, ActorRef, Props}
-import ua.ucu.edu.model.{ Location, CriticalState }
+import ua.ucu.edu.model.{CriticalState, Location}
+import ua.ucu.edu.kafka.{ Producer }
 
 import scala.collection.mutable
 import java.util.UUID.randomUUID
+
 
 /**
   * This actor manages solar plant, holds a list of panels and knows about its location
@@ -12,7 +14,8 @@ import java.util.UUID.randomUUID
   */
 class PlantManagerActor(
   plantName: String,
-  location: Location
+  location: Location,
+  producer: Producer
 ) extends Actor with ActorLogging {
 
   lazy val panelToActorRef: mutable.Map[String, ActorRef] = {
@@ -21,7 +24,7 @@ class PlantManagerActor(
 
     for (i <- 1 to 50) {
       val panelId = s"$plantName-$randomUUID"
-      panels(panelId) = context.actorOf(Props(new SolarPanelActor(panelId)), panelId)
+      panels(panelId) = context.actorOf(Props(new SolarPanelActor(panelId, location, producer)), panelId)
     }
     panels
   }
