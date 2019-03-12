@@ -33,7 +33,7 @@ The project can be improved with code refactoring, introducing serialization of 
 
 The project can be built and run using the regular commands: `sbt docker` and `docker-compose up`. 
 
-Topics: `weather_data`, `solar-panel`, `result_data`.
+Topics: `weather_data`, `sensor-data`, `result_data`.
 
 # Streaming course final project assignment
 

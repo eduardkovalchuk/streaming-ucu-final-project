@@ -15,7 +15,7 @@ object EmulatorProducer extends Producer {
 
   val logger = LoggerFactory.getLogger(getClass)
 
-  val topic = "solar-panel"
+  val topic = "sensor-data"
   val props = Config.get_kafka_properties()
 
   logger.info("initializing producer")

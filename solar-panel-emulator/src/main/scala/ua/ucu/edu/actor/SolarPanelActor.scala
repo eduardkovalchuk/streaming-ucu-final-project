@@ -47,7 +47,7 @@ class SolarPanelActor(
       }
     }
     case  RespondMeasurement(deviceId, sensorType, value) => {
-      logger.info(s"Panel actor received record: $deviceId, $sensorType, $value")
+      logger.trace(s"Panel actor received record: $deviceId, $sensorType, $value")
       val record = SensorRecord(panelId, location, sensorType, value)
       producer.pushData(record)
     }
