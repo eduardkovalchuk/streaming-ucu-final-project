@@ -14,7 +14,7 @@ import org.apache.kafka.streams.scala.kstream.{KStream, KTable}
 
 case class Location(longitude: Double, latitude: Double)
 // Solar data
-case class SolarData(panelId: Int, location: Location, sensorType: String, measurement: Double)
+case class SolarData(panelId: String, location: Location, sensorType: String, measurement: Double)
 // Weather data
 case class WeatherData(location: Location, temperature: Double, humidity: Double)
 
@@ -25,15 +25,21 @@ object DummyStreamingApp extends App {
       val Array(latitude: String, longitude: String, temperature: String ,humidity: String) = str.split(";");
       return WeatherData(Location(longitude.toFloat, latitude.toFloat), temperature.toFloat, humidity.toFloat)
     } catch {
-      case _ => null
+      case _ => {
+        println(s"Failed to parse weather data: ${str}")
+        null
+      }
     }
   }
   def toSolar(str: String): SolarData = {
     try {
       val Array(panelid: String, sensorType: String, measurement: String, latitude: String, longitude: String) = str.split(";");
-      return SolarData(panelid.toInt, Location(longitude.toFloat, latitude.toFloat), sensorType, measurement.toDouble)
+      return SolarData(panelid, Location(longitude.toFloat, latitude.toFloat), sensorType, measurement.toDouble)
     } catch {
-      case _ => null
+      case _ => {
+        println(s"Failed to parse solar data: ${str}")
+        null
+      }
     }
   }
 

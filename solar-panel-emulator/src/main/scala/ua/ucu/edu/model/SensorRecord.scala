@@ -7,6 +7,6 @@ case class SensorRecord(panelId: String, location: Location, sensorType: String,
   def stingify() = {
     val lat = location.latitude
     val long = location.longitude
-    s"$panelId;$sensorType;$lat;$long"
+    s"$panelId;$sensorType;$measurement;$lat;$long"
   }
 }
